@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta name="description" content="ポートフォリオ">
+
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/utility.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/project.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <div id="home" class="big-bg">
+      <header class="header-wrapper">
+          <h1>Portfolio</h1>
+          <nav>
+              <ul class="global-nav">
+                  <li><a href="#work">制作物</a></li>
+                  <li><a href="#profile-skill">プロフィール</a></li>
+                  <li><a href="#form">お問い合わせ</a></li>
+              </ul>
+          </nav>
+      </header>
+      <div class="home-content-wrapper">
+          <h2 class="content-title">Welcome!</h2>
+      </div>
+  </div>  
+  <main class="sp-main">
+      <div class="wrapper">
+          <div class="container">
+              <div class="section-title-container">
+                  <h2 class="section-title" id="work">制作物</h2> 
+              </div> 
+              <div class="work-wrapper-grid">
+                  <div class="work-item">
+                      <img src="images/simple-site.png" alt="シンプルなホームページ">
+                      <p>シンプルなホームページ</p>
+                  </div>
+                  <div class="work-item">
+                      <img src="images/simple-corporate-site.png" alt="シンプルコーポレートサイト">
+                      <p>シンプルなコーポレートサイト</p>
+                  </div>
+                  <div class="work-item">
+                      <img src="images/simple-cafe-site.png" alt="カフェサイト">
+                      <p>カフェサイト</p>
+                  </div>
+                  <div class="work-item">
+                      <img src="images/rehabilinks.png" alt="ランディングページ">
+                      <p>ランディングページ</p>
+                  </div>
+                  <div class="work-item work-wait">
+                      <img>
+                      <p>製作中・・・</p>
+                  </div>
+                  <div class="work-item work-wait">
+                      <img>
+                      <p>製作中・・・</p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+    
+      <div class="wrapper">
+          <div class="container">
+              <div class="section-title-container">
+                    <h2 class="section-title" id="profile-skill">プロフィール・スキル</h2>
+              </div>
+              
+            <div class="profile-skill_container">
+                <div class="profile-container">
+                      <div class="profile-avatar-wrapper">
+                          <img src="images/nigaoe.png" alt="似顔絵">
+                          <div class="profile-avatar-text">
+                              <p>浦田　真弓</p>
+                              <p>1982年8月31日生まれ</p>
+                              <p>三重県在住</p>
+                          </div>
+                      </div>
+                      <div class="profile-text">
+                            <p>WEB制作に興味をもち、学習開始。
+                            ６歳と１歳子育て中。
+                            工業高校出身で、溶接免許や自動車整備士資格など持ってます。
+                            外車ディーラーで9年勤めた経験有。</p>
+                      </div>
+                </div>
+                <div class="skill-container">
+                    <div class="skill-icon_container">
+                        <div class="skill-icon">
+                            <span class="iconify" data-icon="ic:baseline-html" style="color: #333;" data-width="100" data-height="100"></span>
+                        </div>
+                        <div class="skill-icon">
+                            <span class="iconify" data-icon="ic:baseline-css" style="color: #333;" data-width="100" data-height="100"></span>
+                        </div>
+                        <div class="skill-icon">
+                            <span class="iconify" data-icon="logos:jquery" data-width="100" data-height="100"></span>
+                        </div>
+                        <div class="skill-icon">
+                            <span class="iconify" data-icon="fe:wordpress" style="color: #333;" data-width="100" data-height="100"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+          </div>
+      </div>
+          
+      <div class="wrapper">
+          <div class="container form_container">
+              <div class="section-title-container">
+                  <h2 class="section-titne" id="form">問い合わせ</h2>
+              </div>
+              <div class="form">
+                  <form action="#">
+                      <div>
+                          <label for="name">お名前</label>
+                          <input type="text" id="name" name="your-name">
+                      </div>
+                      <div>
+                          <label for="email">メールアドレス</label>
+                          <input type="email" id="email" name="your-email">
+                      </div>
+                      <div>
+                          <label for="tel">tel</label>
+                          <input type="tel" id="tel" name="your-tel">
+                      </div>
+                      <div>
+                          <label for="message">問い合わせ内容</label>
+                          <textarea id="message" name="your-message"></textarea>
+                      </div>
+                      <input type="submit" class="button" value="送信">
+                  </form>
+              </div>
+          </div> 
+      </div>
+  </main>
+  <footer>
+    <p>©︎ 2021 Portfolio</p>
+  </footer>
+  <script src = "https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</body>
+</html>

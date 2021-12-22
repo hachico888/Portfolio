@@ -1,0 +1,147 @@
+.work-item img {
+  border-radius: 6%;
+  overflow: hidden;
+}
+
+.work-wait {
+  width: 60%;
+}
+
+.profile-skill_container .profile-container,
+.profile-skill_container .skill-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10%;
+  -webkit-box-shadow: 20px 20px #c4c4c4;
+          box-shadow: 20px 20px #c4c4c4;
+}
+
+.profile-skill_container .profile-container img,
+.profile-skill_container .skill-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-skill_container .profile-container .profile-avatar-wrapper,
+.profile-skill_container .skill-container .profile-avatar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-skill_container .profile-container .profile-avatar-wrapper img,
+.profile-skill_container .skill-container .profile-avatar-wrapper img {
+  margin-top: 5%;
+}
+
+.profile-skill_container .profile-container .profile-avatar-wrapper .profile-avatar-text,
+.profile-skill_container .skill-container .profile-avatar-wrapper .profile-avatar-text {
+  width: 50%;
+  margin-top: 10%;
+}
+
+.profile-skill_container .profile-container .profile-text,
+.profile-skill_container .skill-container .profile-text {
+  text-align: center;
+  margin: 4%;
+}
+
+.profile-skill_container .profile-container:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(20px, 20px);
+          transform: translate(20px, 20px);
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
+}
+
+.profile-skill_container .skill-container .skill-icon_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-left: 20%;
+}
+
+.profile-skill_container .skill-container .skill-icon_container .skill-icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 35%;
+  margin: 17% 0 0 4%;
+}
+
+.profile-skill_container .skill-container:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(20px, 20px);
+          transform: translate(20px, 20px);
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.form_container {
+  background-color: #fff0f0;
+  padding-top: 2%;
+}
+
+.form_container form div {
+  margin-bottom: 12px;
+  margin-left: 20%;
+}
+
+.form_container form div label {
+  margin-bottom: 4px;
+  display: block;
+}
+
+.form_container form div input,
+.form_container form div textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.form_container form div input {
+  width: 100%;
+  max-width: 60%;
+}
+
+.form_container form div textarea {
+  width: 100%;
+  max-width: 80%;
+  height: 12rem;
+}
+
+.form_container form div input [type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.button {
+  border: 2px #333 solid;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 180px;
+  padding: 1.5%;
+  margin: 0 0 2% 20%;
+  -webkit-box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  .sp-main .work-wrapper-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sp-main .work-wrapper-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .sp-main .work-wrapper-grid .work-item {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .sp-main .profile-skill_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sp-main .profile-skill_container .profile-container,
+  .sp-main .profile-skill_container .skill-container {
+    margin: 0 auto;
+  }
+  .sp-main .profile-skill_container .profile-container {
+    margin-bottom: 2%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

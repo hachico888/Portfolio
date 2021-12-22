@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+  .sp-main {
+    .work-wrapper-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sp-main {
+    .work-wrapper-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      .work-item {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+    }
+    .profile-skill_container {
+      display: flex;
+      flex-direction: column;
+
+      .profile-container,
+      .skill-container {
+        margin: 0 auto;
+      }
+      .profile-container {
+        margin-bottom: 2%;
+      }
+    }
+    // .profile-skill_container {
+    //   display: flex;
+    //   justify-content: space-around;
+    // }
+  }
+}
