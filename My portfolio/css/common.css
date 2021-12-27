@@ -7,6 +7,12 @@
   width: 60%;
 }
 
+.profile-skill_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .profile-skill_container .profile-container,
 .profile-skill_container .skill-container {
   -webkit-box-orient: vertical;
@@ -20,8 +26,8 @@
 
 .profile-skill_container .profile-container img,
 .profile-skill_container .skill-container img {
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: 80%;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -41,7 +47,7 @@
 .profile-skill_container .profile-container .profile-avatar-wrapper .profile-avatar-text,
 .profile-skill_container .skill-container .profile-avatar-wrapper .profile-avatar-text {
   width: 50%;
-  margin-top: 10%;
+  margin-top: 18%;
 }
 
 .profile-skill_container .profile-container .profile-text,
@@ -68,10 +74,7 @@
 }
 
 .profile-skill_container .skill-container .skill-icon_container .skill-icon {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 35%;
+  width: 50%;
   margin: 17% 0 0 4%;
 }
 

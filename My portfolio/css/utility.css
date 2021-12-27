@@ -96,8 +96,10 @@ main .profile-skill_container {
 
 main .profile-container,
 main .skill-container {
-  width: 500px;
-  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48%;
   border: 1px #c4c4c4 solid;
 }
 
