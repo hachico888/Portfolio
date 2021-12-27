@@ -9,6 +9,8 @@
 }
 
 .profile-skill_container {
+  display: flex;
+
   .profile-container,
   .skill-container {
     flex-direction: column;
@@ -16,8 +18,8 @@
     box-shadow: 20px 20px #c4c4c4;
 
     & img {
-      width: 200px;
-      height: 200px;
+      width: 50%;
+      height: 80%;
       border-radius: 50%;
       overflow: hidden;
     }
@@ -30,7 +32,7 @@
       }
       .profile-avatar-text {
         width: 50%;
-        margin-top: 10%;
+        margin-top: 18%;
       }
     }
 
@@ -53,8 +55,7 @@
       grid-template-columns: repeat(2, 1fr);
       margin-left: 20%;
       .skill-icon {
-        flex: 0 0 auto;
-        width: 35%;
+        width: 50%;
         margin: 17% 0 0 4%;
       }
     }

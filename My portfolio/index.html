@@ -13,19 +13,36 @@
   <link href="css/common.css" rel="stylesheet">
   <link href="css/project.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
+
 <body>
     <div id="home" class="big-bg">
       <header class="header-wrapper">
           <h1>Portfolio</h1>
-          <nav>
+          <nav class="not_nav">
               <ul class="global-nav">
                   <li><a href="#work">制作物</a></li>
                   <li><a href="#profile-skill">プロフィール</a></li>
                   <li><a href="#form">お問い合わせ</a></li>
               </ul>
           </nav>
+          <div class="hamburger">
+            <span></span>
+            <span></span>   
+            <span></span>
+          </div>
+          <nav class="globalMenuSp">
+            <ul id="menu_sp">
+                <li><a href="#work">制作物</a></li>
+                <li><a href="#profile-skill">プロフィール</a></li>
+                <li><a href="#form">お問い合わせ</a></li>
+            </ul>
+          </nav>
       </header>
+      
       <div class="home-content-wrapper">
           <h2 class="content-title">Welcome!</h2>
       </div>
